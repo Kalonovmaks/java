@@ -10,7 +10,7 @@ public class bool22 {
         s1=(a/100);
         s2=(a/10)%10;
         s3=(a%10)/10;
-        l=(s1<s2)||(s2<s3) ;
+        l=(s1<s2)&&(s2<s3) || (s1>s2)&&(s2>s3) ;
         System.out.println(l);
     }
 }
